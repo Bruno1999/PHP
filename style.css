@@ -1,0 +1,399 @@
+body{
+    color: black;
+    background-color: white;
+    width: 90%;
+    font-family:arial,sans-serif;
+    margin: 0px auto;
+    
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.logo{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url(https://www.francetvinfo.fr/skin/www/img/lgo/logo.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 43px 0 0;
+    height: 35px;
+    width: 231px;
+}
+
+.logoFooter{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    /*background-image: url(https://www.francetvinfo.fr/skin/dist/www/img/lgo/logo-white-bbe1093942.svg);*/
+    /*background-image: url(logoWhite.svg)*/
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 105px;
+    width: 100%;
+
+}
+
+.fleft {
+    float: left;
+    text-align: left;
+}
+
+.navigacija{
+    background: #fff;
+    border-top: 1px solid #e6e6e6;
+    color: black;
+
+}
+
+.navigacija>ul>li {
+    font-size: 13px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul{
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+}
+
+
+li{
+    display: inline-block;
+    float: left;
+    width: 14%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+  }
+
+section{
+    float: left;
+    width: 100%;
+}
+
+section h3{
+    float: left;
+}
+.first{
+    width: 18%;
+}
+
+.text{
+    width:80%;
+    text-align: center;
+}
+
+article{
+    float: left;
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+
+
+#content_wrap{
+    margin: 0px auto;
+    width: 100%;
+}
+
+#content {
+	float:left;
+	margin-top:15px;
+	
+	padding-left:20px;
+	padding-right:20px;
+
+	
+	background:white;
+	padding:15px 20px 15px 20px;
+	width: 100%;
+	
+	margin-bottom:15px;
+}
+
+p{
+	font-size:16px;
+	margin-top:0px;
+	padding:10px;
+}
+
+
+
+#header2{
+    margin:0px auto;
+    width: 100%;
+}
+
+#form{
+    text-align: left;
+
+}
+
+footer{
+    float: left;
+    background: #6e6e6e;
+    width: 80%;
+    text-align: right;
+    width: 100%;
+}
+
+
+
+@media (max-width: 700px) {
+    body{
+        color: black;
+        background-color: white;
+        width: 100%;
+        font-family:arial,sans-serif;
+        margin: 0px auto;
+        
+    }
+    
+    #wrapper{
+        margin: 0px auto;
+        width: 100%;
+    }
+    
+    .logo{
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        background-image: url(https://www.francetvinfo.fr/skin/www/img/lgo/logo.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 43px 0 0;
+        height: 35px;
+        width: 231px;
+    }
+    
+    .logoFooter{
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        /*background-image: url(https://www.francetvinfo.fr/skin/dist/www/img/lgo/logo-white-bbe1093942.svg);*/
+        /*background-image: url(logoWhite.svg)*/
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 105px;
+        width: 100%;
+    
+    }
+    
+    .fleft {
+        float: left;
+        text-align: left;
+    }
+    
+    .navigacija{
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+        color: black;
+    
+    }
+    
+    .navigacija>ul>li {
+        font-size: 13px;
+        flex-grow: 1;
+        position: relative;
+    }
+    
+    .clearfix {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    ul{
+        overflow: hidden;
+        list-style: none;
+        width: 100%;
+    }
+    
+    
+    li{
+        display: inline-block;
+        float: left;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    
+    li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 4px 6px;
+        text-decoration: none;
+      }
+    
+    section{
+        float: left;
+        width: 100%;
+    }
+    
+    section h3{
+        float: left;
+    }
+    .first{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .text{
+        width:100%;
+        text-align: center;
+    }
+    
+    article{
+        float: left;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    #content_wrap{
+        margin: 0px auto;
+        width: 100%;
+    }
+    
+    #content {
+        float:left;
+        margin-top:15px;
+        
+        padding-left:20px;
+        padding-right:20px;
+    
+        
+        background:white;
+        padding:15px 20px 15px 20px;
+        width: 100%;
+        
+        margin-bottom:15px;
+    }
+    
+    p{
+        font-size:16px;
+        margin-top:0px;
+        padding:10px;
+    }
+    
+    
+    
+    #header2{
+        margin:0px auto;
+        width: 100%;
+    }
+    
+    footer{
+        float: left;
+        background: #6e6e6e;
+        text-align: right;
+        width: 100%;
+    }
+    
+    
+
+
+  }
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    
+}
+
+
+
+#forma_unos form {
+	margin:20px;
+	padding-bottom:40px;
+	line-height:1.6em;
+}
+#forma_unos label {
+	display: inline-block;
+	width: 120px;
+	padding: 10px 0 13px 0;
+}
+#forma_unos input {
+	border: 1px solid #192861;
+	border-radius: 5px;
+	padding: 5px;
+}
+#forma_unos textarea {
+	border: 1px solid #192861;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+#form_element input[type=submit] {
+	font-size:100%;
+	padding:20px 40px; 
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	border-radius: 5px; 
+}
+#form_element input[type=reset] {
+	font-size:100%;
+	padding:20px 40px; 
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	border-radius: 5px; 
+}
+
+#form_element{
+	margin: 30px 150px 30px 150px;
+	padding-right:20px;
+	padding-left:20px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow: 1px 1px 5px #191949;
+}
+
+#form_element *{
+	vertical-align: middle;
+	margin:20px 0px 20px 0px;
+}
+
+#loginform{
+	margin: 0 auto;
+	margin-top:30px;
+	width:350px;
+}
+
+#buttonsLogin{
+	width:220px;
+	margin: 0 auto;
+	margin-left:120px;
+}
+#noposts input[type=text],#noposts input[type=password] {
+	margin: 0 auto;
+	border-radius:5px;
+	margin-bottom:10px;
+}

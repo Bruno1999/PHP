@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Projekt iz predmeta Programiranje web aplikacija">
+        <meta name="keywords" content="programiranje, web, aplikacije, servisi">
+
+        <meta name="author" content="Bruno Brašić">
+        
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+    <header>
+        <h1 class="fleft logo"></h1>  
+        <div class="clearfix"></div>
+        <div id="header2">
+            <nav class="navigacija">
+                        <ul>
+                            <li><a href="index.html">Početna</a></li>
+                            <li><a href="kategorija.php">Kategorije</a></li>
+                            <li><a href="clanak.html">Clanak</a></li>
+                            <li><a href="unos.html">Unos</a></li>
+                            <li><a href="administrator.php">Administrator</a></li>
+                            <li><a href="login.html">Prijava</a></li>
+                            <li><a href="registracija.html">Registracija</a></li>
+                        </ul>
+            
+                </nav>
+                <div class="clearfix"></div>    
+                <hr>
+
+
+        </div>
+
+    </header>
+    
+    <div class="clearfix"></div>
+    
+    <div id="content_wrap">
+        <div id="content">
+       
+        
+        <main>
+			<article id="registracija">
+				<h2>Registracija na France info</h2>
+				<form name="registracija" action="registracija.php" method="POST">
+					
+					<label for="username"></label>
+					<input type="text" name="username" id="username" placeholder="Korisničko ime"/><br>
+					<br>
+					<label for="name"></label>
+					<input type="text" name="name" id="name" placeholder="Ime"/><br/>
+					<br>
+					
+					<label for="LozinkaKorisnika"></label>
+					<input type="password" name="lozinkaKorisnika" id="lozinkaKorisnika"  placeholder="Lozinka"/><br>
+					<br>
+					<label for="LozinkaKorisnika2"></label>
+					<input type="password" name="lozinkaKorisnika2" id="lozinkaKorisnika2"  placeholder="Ponovite lozinku" /><br>
+					<br>
+					
+					<input type="submit" id="gumb" name="registracija" value="Registracija">
+				</form>
+			</article>
+		</main>
+
+        </div>
+    </div>
+
+    
+
+
+    
+    </div><!--kraj id wrapper-->
+    <div class="clearfix"></div>
+    <footer>
+        
+        <p>Bruno Brašić | bbrasic@tvz.hr | 2019.godina</p>
+        
+    </footer>
+
+    <div class="clearfix"></div>
+</body>
+
+</html>
